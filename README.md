@@ -22,7 +22,7 @@ $ dict hello world
 数据接口
 
 
-http://fanyi.youdao.com/openapi.do?keyfrom=<keyfrom>&key=<key>&type=data&doctype=<doctype>&version=1.1&q=要翻译的文
+http://fanyi.youdao.com/openapi.do?keyfrom=<keyfrom>&key=<key>&type=data&doctype=<doctype>&version=1.1&q=要翻译的文本
 
 版本：1.1，请求方式：get，编码方式：utf-8
 
