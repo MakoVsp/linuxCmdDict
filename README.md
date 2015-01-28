@@ -2,15 +2,13 @@
 A tool for linux cmd!
 
 Instal
-
-
 wget https://raw.githubusercontent.com/MakoVsp/linuxCmdDict/master/linuxCmdDict.py
+
 sudo mv ./dict.py /usr/bin/dict
+
 sudo chmod +x /usr/bin/dict
 
-
 Use
-
 $ dict hello
 ################################### 
 #  hello 你好 (U: hɛˈlo, hə- E: hə'ləʊ; he- )
