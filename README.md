@@ -8,6 +8,7 @@ wget https://raw.githubusercontent.com/MakoVsp/linuxCmdDict/master/linuxCmdDict.
 sudo mv ./dict.py /usr/bin/dict
 sudo chmod +x /usr/bin/dict
 
+
 Use
 
 $ dict hello
