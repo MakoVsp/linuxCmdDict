@@ -10,6 +10,7 @@ sudo mv ./dict.py /usr/bin/dict
 sudo chmod +x /usr/bin/dict
 
 Use
+
 $ dict hello
 ################################### 
 #  hello 你好 (U: hɛˈlo, hə- E: hə'ləʊ; he- )
