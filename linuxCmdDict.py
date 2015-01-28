@@ -9,7 +9,6 @@ import urllib2
 dict - Chinese/English Translation
 @author zhangpeng(244267727@qq.com)
 @date   2015.01.28
-@git	https://github.com/MakoVsp/linuxCmdDict.git
 """
 
 
