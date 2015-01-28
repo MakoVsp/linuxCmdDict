@@ -4,13 +4,12 @@ import sys
 import json
 import urllib2
 
-
 """
 dict - Chinese/English Translation
 @author zhangpeng(244267727@qq.com)
 @date   2015.01.28
-"""
 
+"""
 
 class Dict:
     key = '511917621'
@@ -19,9 +18,10 @@ class Dict:
     content = None
 
     def __init__(self, argv):
-        if len(argv) == 1:
-            self.api = self.api + argv[0]
-            self.translate()
+        if len(argv) >= 1:
+        	for i in range(1, len(argv)) :
+        		self.api = self.api + ' ' +  argv[i]
+        	self.translate()
         else:
             print 'ERROR'
 
@@ -62,4 +62,4 @@ class Dict:
             print 'DO\'T HAVE THIS WORD'
 
 if __name__ == '__main__':
-    Dict(sys.argv[1:])
+    Dict(sys.argv)
