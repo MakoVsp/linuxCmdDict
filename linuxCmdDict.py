@@ -50,7 +50,6 @@ class Dict:
                 print '\033[1;31m# \033[0m Explains None'
             print '\033[1;31m################################### \033[0m'
         elif code == 20:  # Text too long
-
             print 'WORD TOO LONG'
         elif code == 30:  # Trans error
             print 'TRANSLATE ERROR'
